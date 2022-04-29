@@ -31,5 +31,11 @@ div{
     margin-left: 4px;
 }
 
-
+button{
+    padding: 0;
+    border: none;
+    background: none;
+    margin-left: 10px;
+    width: auto;
+}
 
