@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 4rem;
+}
+p{
+    font-size: 1.5rem;
+    padding: 10px 0px;
+}
+
+div{
+    max-width: 1920px;
+    margin: 5px;
+}
+
+#name, #surname, #email{
+    margin-top: 13px;
+    width: 200px;
+    padding: 5px;
+}
+
+#yes,#no,#dno,#dyes{
+    margin-left: 4px;
+}
+
+#front,#back,#data,#other{
+    margin-left: 4px;
+}
+
+
+

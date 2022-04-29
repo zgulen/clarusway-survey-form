@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprint0</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <h1>Clarusway Survey Form</h1>
+      <p>Thank you for taking the time to help us improve the platform</p>
+    </div>
+    <div>
+      <form action="./datab.html">
+        <label for="name">Name</label>
+        <br />
+        <input
+          type="text"
+          name="Name"
+          id="name"
+          placeholder="Enter your name"
+        />
+        <br />
+        <label for="surname">Surname</label>
+        <br />
+        <input
+          type="text"
+          name="Surname"
+          id="surname"
+          placeholder="Enter your surname"
+        />
+        <br />
+        <label for="email">Email</label>
+        <br />
+        <input
+          type="email"
+          name="Email"
+          id="email"
+          placeholder="user@clarusway.com"
+        />
+        <br />
+        <p>Which option best describes your current role?</p>
+        <select name="Role" id="role">
+          <option value="Role" disabled selected value>
+            Select Curren Role
+          </option>
+          <option value="Student">Student</option>
+          <option value="Teacher">Teacher</option>
+          <option value="fulltime">Full Time Job</option>
+          <option value="parttime">Part Time Job</option>
+          <option value="intern">Full Time Learner</option>
+          <option value="Preferno">Prefer Not to Say</option>
+        </select>
+        <p>Would you Recommend Clarusway to a friend?</p>
+        <input type="radio" name="recommend" id="dyes" value="Definetly, Yes" />
+        <label for="dyes">Definetly, Yes</label>
+        <br />
+        <br />
+        <input type="radio" name="recommend" id="yes" value="Yes" />
+        <label for="yes">Yes</label>
+        <br /><br />
+        <input type="radio" name="recommend" id="no" value="Not Sure" />
+        <label for="no">Not Sure</label>
+        <br />
+        <br />
+        <input type="radio" name="recommend" id="dno" value="Definetly Not" />
+        <label for="dno">Definetly Not</label>
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <input type="checkbox" name="project" id="front" value="Front-end" />
+        <label for="front">Front-end Projects</label>
+        <br /><br />
+        <input type="checkbox" name="project" id="back" value="Back-end" />
+        <label for="back">Back-end Projects</label>
+        <br /><br />
+        <input type="checkbox" name="project" id="data" value="Data-science" />
+        <label for="data">Data Science</label>
+        <br /><br />
+        <input
+          type="checkbox"
+          name="project"
+          id="other"
+          value="Additional Courses"
+        />
+        <label for="other">Additional Courses</label>
+        <p>Any comments or suggestions?</p>
+        <textarea
+          name="feedback"
+          id="feed"
+          cols="22"
+          rows="3"
+          placeholder="Enter your comment here... Thanxs for your comments"
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
